@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>validate</title>
+    <meta name="description" content="LOYAL">
+   
+    <style>
+
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<form>
+  <label for="email">E-mail:</label>
+  <input type="email" name="email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" title="Вы неверно ввели email, повторите ввод в формате mail@site.com" required>
+
+  <label for="tel">Телефон:</label>
+  <input type="tel" name="tel" pattern="^\(\d{3}\)\d{3}-\d{2}-\d{2}$" title="Вы неверно ввели номер мобильного телефона, повторите ввод в формате (050)XXX-XX-XX" required />
+  <input type="submit" value="Отправить">
+</form>
+ 
+
+<script type="text/javascript" src="test3.js"></script>
+  </body>
+</html>
